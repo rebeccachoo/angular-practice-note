@@ -1,0 +1,26 @@
+@import url("https://fonts.googleapis.com/css2?family=Lora:wght@500&display=swap");
+
+$primary-color: #333;
+$white: white;
+
+#body {
+  font-family: "Lora", serif;
+  color: $primary-color;
+}
+.nav {
+  padding: 30px;
+  width: 100%;
+  background-color: #333;
+  color: $white;
+  text-align: center;
+  font-size: 22px;
+}
+.content {
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  padding-top: 30px;
+}
+.contnet__inside {
+  width: 600px;
+}

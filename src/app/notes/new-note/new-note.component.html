@@ -1,0 +1,14 @@
+<div class="new">
+  <mat-accordion>
+    <mat-expansion-panel hideToggle>
+      <mat-expansion-panel-header>
+        <mat-panel-title> Add a Note </mat-panel-title>
+      </mat-expansion-panel-header>
+      <div class="inputs">
+        <div><label>Title</label> <input [(ngModel)]="title" /></div>
+        <div><label>Content</label> <input [(ngModel)]="content" /></div>
+        <button type="button" (click)="submit()">Submit</button>
+      </div>
+    </mat-expansion-panel>
+  </mat-accordion>
+</div>

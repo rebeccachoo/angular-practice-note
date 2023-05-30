@@ -1,0 +1,7 @@
+<div *ngIf="notes">
+  <div class="note" *ngFor="let note of notes">
+    <div class="title">{{ note.title }}</div>
+    <div>{{ note.content }}</div>
+    <div class="delete" (click)="delete()">Delete</div>
+  </div>
+</div>
